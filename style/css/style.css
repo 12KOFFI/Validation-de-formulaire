@@ -1,0 +1,77 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+/* Conteneur du formulaire */
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Style des champs de formulaire et du bouton */
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* Espacement commun */
+}
+
+
+
+.form-container button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-container button:hover {
+    background-color: #218838;
+}
+
+/* Style des labels */
+.form-container label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Messages d'erreur */
+.affiche1, .affiche2 {
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    color: lightcoral;
+    margin-bottom: 20px ; /* Espacement réduit pour une meilleure harmonie */
+}
+
+/* Icônes d'erreur */
+.icon1, .icon2 {
+    margin-top: 12px;
+    margin-left: 5px;
+    position: absolute;
+    visibility:hidden;
+}
+
+.colored{
+    border: solid 1px rgb(216, 8, 8);
+}
+
+.colorgreen{
+    border: solid 2px rgb(8, 216, 112);
+}
